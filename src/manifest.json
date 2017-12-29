@@ -1,0 +1,18 @@
+{
+	"name":"chromectl",
+	"manifest_version": 2,
+	"version":"0.1",
+	"permissions": [
+		"tabs",
+		"debugger",
+		"clipboardWrite",
+		"webRequest",
+		"webRequestBlocking",
+		"*://*/*"
+	],
+	"background": {
+		"scripts": [
+		  "task.js"
+		]
+	}
+}
